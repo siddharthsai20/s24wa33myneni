@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Define the route for '/mydata'
 router.get('/', (req, res) => {
-  res.render('mydata', { title: 'Sai Vinay Kumar' }); // Replace with your full name
+  res.render('mydata', { title: 'sidhuu' }); // Replace with your full name
 });
 
 module.exports = router;
