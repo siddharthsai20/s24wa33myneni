@@ -6,7 +6,7 @@ let total = 1;
 router.get('/', function(req, res, next) {
   value += 2;       
   total += value * 2; 
-  res.send(Total is: ${total});  
+  res.send('Total is: ${total}');  
 });
 
 module.exports = router;
