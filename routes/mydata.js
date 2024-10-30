@@ -1,9 +1,10 @@
-var express = require('express');
-var router = express.Router();
+// routes/mydata.js
+const express = require('express');
+const router = express.Router();
 
-/* GET mydata page. */
-router.get('/', function(req, res, next) {
-  res.render('mydata', { title: 'sidhu' }); 
+// Define the route for '/mydata'
+router.get('/', (req, res) => {
+  res.render('mydata', { title: 'Sai Vinay Kumar' }); // Replace with your full name
 });
 
 module.exports = router;
